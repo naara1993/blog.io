@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Javascript</title>
+  </head>
+
+  <body>
+    <header class="container-fluid">
+      <div class="">
+        <div class="logo-title">
+          <a href="index.html">
+            <img
+            src="./img/images (1).png"
+            width="100px"
+            height="100px"
+            class="img-fluid"
+            alt="logo escuela"
+          />
+          </a>
+          <h2 id="titulo-logo" class="h2 px-3">E-Learning</h2>
+        </div>
+        <nav class="navbar navbar-expand-md navbar-light">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Artículos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ancla-contacto">Contacto</a>
+              </li>
+              
+              <li id="login" class="nav-item">
+                <a
+                  class="nav-link nav-modal"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                  >Ingresar</a
+                >
+              </li>
+              <li id="login" class="nav-item">
+                <a class="btn nav-link " onclick="salirLogin()" id="salir"
+                  >Salir</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    
+    </header>
+
+
+    <!--MAIN------------------------>
+
+    <div class="row pag-de-articulos">
+    <main class="container-fluid col-md-8 col-sm-12 col-lg-8">
+      <div class="row">
+        <article class="col-md-12 col-sm-12 col-lg-12">
+          <div class="card">
+            
+            <div class="card-body">
+              <p class="card-text-subtitle">JAVASCRIPT </p>
+              <h5 class="card-title h4">
+                ¿Qué es Javascript?
+              </h5>
+
+              <img
+              src="./img/istockphoto-1194720790-612x612.jpg"
+              class="card-img-top"
+              alt=""
+            />
+              <div class="seccion-de-textos">
+              <p class="articulo-text">            
+                JavaScript es el único lenguaje de programación que funciona en los navegadores de forma nativa (lenguaje interpretado sin necesidad de compilación). Por tanto se utiliza como complemento de HTML y CSS para crear páginas webs.
+              </p>
+
+              <h3>¿Para qué sirve JavaScript?</h3>
+
+              <p class="articulo-text">
+                Con este lenguaje de programación del lado del cliente (no en el servidor) podemos crear efectos y animaciones sin ninguna interacción, o respondiendo a eventos causados por el propio usuario tales como botones pulsados y modificaciones del DOM (document object model). Por tanto, nada tiene que ver con el lenguaje de programación Java, ya que su principal función es ayudar a crear páginas webs dinámicas.
+                JavaScript es capaz de detectar errores en formularios, de crear bonitos sliders que se adapten a cualquier pantalla, de hacer cálculos matemáticos de forma eficiente, de modificar elementos de una página web de forma sencilla. Pero también JS es el encargado de que existan herramientas como Google Analytics, Google Tag Manager, Facebook Pixel y tantas otras, que son claros ejemplos de JavaScript.
+                Existe una tecnología llamada AJAX que permite intercambiar información con el servidor sin tener que recargar la página. Es decir, sólo cargamos de la página lo necesario. Esta tecnología desarrollada en JavaScript ha supuesto uno de los principales avances en el desarrollo web. Aunque no la sepamos reconocer, es la encargada de que podamos conseguir más mensajes, tweets, emails…sólo pulsando un botón, sin tener que recargar la página.
+              </p>
+
+              <h3>Ventajas de JavaScript</h3>
+
+              <p class="articulo-text">
+                Hay una serie de ventajas de JavaScript que hacen que este lenguaje de programación sea superior a sus competidores, especialmente en ciertos casos. Estas son algunas de las ventajas de JavaScript:
+
+              <ol>
+                <li>
+                  No necesita un compilador porque los navegadores web pueden interpretarlo con HTML;
+                </li>
+                <li>
+                  Más fácil de aprender que otros lenguajes de programación;
+                </li>
+                 <li>
+                  El proceso de búsqueda y manejo de errores o errores es más sencillo;
+                 </li>
+                 <li>
+                  Puede funcionar como elementos de una página web o ciertos eventos, como clics o  movimientos del mouse  ;
+                 </li>
+                 <li>
+                  Puede funcionar en varios navegadores, plataformas y más.
+                 </li>
+                 <li>
+                  Puede usar este lenguaje de programación para validar la entrada y minimizar el proceso de verificación de datos manualmente;
+                 </li>
+                 <li>
+                  Con él, su sitio web se vuelve más interactivo y también capaz de atraer la atención de más visitantes;
+                 </li>
+                 <li>
+                  Más rápido y ligero que otros lenguajes de programación. 
+                 </li>
+              </ol>
+             </p>
+
+
+            </div>
+              
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      
+      <div class="row">
+        <div class="links-bottom-main-izq col-md-6 col-sm-6 col-lg-6">
+          <a href="index.html"> Volver al inicio </a>
+        </div>
+
+        <div class="links-bottom-main-der col-md-6 col-sm-6 col-lg-6">
+          <a href="js-tipo-de-datos.html">Tipos de datos en JavaScript -></a>
+        </div>
+      </div>
+
+    </main>
+
+    </div>
+
+    <!--Footer--------------------------------->
+
+    <a id="ancla-contacto"></a>
+
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 col-lg-4 col-sm-12">
+            <div class="contenido1">
+              <p class="title">E-Learning</p>
+              <p>Ofreciendo calidad y contenido educativo de muy buen nivel</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-sm-12">
+            <div class="contenido2">
+              <p class="h5">¡Seguinos para mas novedades!</p>
+              <div class="redesSociales">
+                <img class="img-redes" src="./img/descarga (12).jpg" alt="">
+                <img class="img-redes" src="./img/descarga (5).png" alt="">
+                <img class="img-redes" src="./img/descarga (6).png" alt="">
+                <img class="img-redes" src="./img/descarga (7).png" alt="">
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-md-4 col-lg-4 col-sm-12">
+            <div class="contenido3">
+              <p class="h5">Contacto</p>
+              <div class="seccion-contacto">
+                <div class="contacto">
+                  <img class="img-contacto" src="./img/descarga (8).png" alt=""> 
+                  <p> 15-4433-4321</p> 
+                </div>
+                <div class="contacto">
+                  <img class="img-contacto" src="./img/descarga (13).jpg" alt="">
+                  <p>san martin 34054,caba.</p>
+                </div>
+                <div class="contacto">
+                  <img class="img-contacto" src="./img/descarga (14).jpg" alt="">
+                  <p>example@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-modal"
+              src="./img/descarga (4).png"
+              width="40px"
+              height="40px"
+              alt="login"
+            />
+            <input
+              type="text"
+              name="NombreUsuario"
+              id="NombreUsuario"
+              placeholder="UserName"
+            />
+          </div>
+          <div class="modal-footer">
+            <button type="button" id="button-footer" class="btn btn-dark">
+              Ingresar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/otras-pags.js"></script>
+  </body>
+</html>

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Que es la programacion</title>
+  </head>
+
+  <body>
+    
+    <header class="container-fluid">
+      <div class="">
+        <div class="logo-title">
+          <a href="index.html">
+            <img
+            src="./img/images (1).png"
+            width="100px"
+            height="100px"
+            class="img-fluid"
+            alt="logo escuela"
+          />
+          </a>
+          <h2 id="titulo-logo" class="h2 px-3">E-Learning</h2>
+        </div>
+        <nav class="navbar navbar-expand-md navbar-light">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Artículos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ancla-contacto">Contacto</a>
+              </li>
+              
+              <li id="login" class="nav-item">
+                <a
+                  class="nav-link nav-modal"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                  >Ingresar</a
+                >
+              </li>
+              <li id="login" class="nav-item">
+                <a class="btn nav-link " onclick="salirLogin()" id="salir"
+                  >Salir</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    
+    </header>
+
+
+    <!--MAIN------------------------>
+
+    <div class="row pag-de-articulos">
+    <main class="container-fluid col-md-8 col-sm-12 col-lg-8">
+      <div class="row">
+        <article class="col-md-12 col-sm-12 col-lg-12">
+          <div class="card">
+            
+            <div class="card-body">
+              <p class="card-text-subtitle">Programación</p>
+              <h5 class="card-title h4">
+                ¿Qué es programación?
+              </h5>
+
+              <img
+              src="./img/technology-1283624_960_720.jpg"
+              class="card-img-top"
+              alt=""
+            />
+              <div class="seccion-de-textos">
+              <p class="articulo-text">
+                La programación es el proceso de creación de programas informáticos. Esta definición se puede interpretar de la siguiente manera. La programación no es más que una explicación a la computadora de qué, en qué forma y cómo llegar al usuario. En otras palabras, es una especie de arte de traducir los deseos de una persona al lenguaje de la máquina.   
+            </p>
+              <h3>La esencia de la programación</h3>
+
+              <p class="articulo-text">
+                La idea principal es crear un algoritmo y traducirlo a un lenguaje de programación. Al guía de desarrollo se le suele aconsejar que empiece a desarrollar un programa respondiendo a la pregunta: ¿Es posible implementar esta tarea de forma programada? Por ejemplo, incluso hoy en día no se puede hacer que una computadora prediga lo que sucederá en unos días. E incluso si este ejemplo no es del todo correcto, porque esta tarea es imposible en principio. Sin embargo, si se limita la tarea a predecir el comportamiento de alguna divisa en el intercambio, tal tarea se resuelve con la ayuda de un algoritmo suficientemente complejo y una gran base de datos experimental. 
+            </p>
+
+              <h3>Algoritmos</h3>
+
+              <p class="articulo-text">
+                Una vez que se haya tomado la decisión sobre la posibilidad de implementar el software en una tarea, es necesario construir un algoritmo para su solución. Es decir, es necesario describir la secuencia de pasos para resolver la tarea con el máximo detalle teniendo en cuenta todas las posibles ramas, ciclos y errores. De hecho, se puede construir un algoritmo para las operaciones diarias más simples. Por ejemplo, se puede describir el algoritmo de la preparación del té:
+                 <br>
+                1-Abrir la tetera.
+                <br>
+                2-Si no hay agua en la tetera, se le debe echar.
+                <br>
+                3-Poner la tetera en la estufa de gas.
+                4- Abrir el gas.
+                <br>
+                5-Encender el fuego.
+                <br>
+                6-Esperar a que el agua de la tetera hierva.
+                <br>
+                7-Colocar el sobre de té en la taza.
+                <br>
+                8-Echar el agua caliente de la tetera a la taza.
+            </p>
+            </div>     
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="row">
+        <div class="links-bottom-main-izq col-md-6 col-sm-6 col-lg-6">
+          <a href="index.html"> Volver al inicio </a>
+        </div>
+
+        <div class="links-bottom-main-der col-md-6 col-sm-6 col-lg-6">
+          <a href="#">HTML -></a>
+        </div>
+      </div>
+
+    </main>
+
+    </div>
+
+    <!--Footer--------------------------------->
+
+    <a id="ancla-contacto"></a>
+
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 col-lg-4 col-sm-12">
+            <div class="contenido1">
+              <p class="title">E-Learning</p>
+              <p>Ofreciendo calidad y contenido educativo de muy buen nivel</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-sm-12">
+            <div class="contenido2">
+              <p class="h5">¡Seguinos para mas novedades!</p>
+              <div class="redesSociales">
+                <img class="img-redes" src="./img/descarga (12).jpg" alt="">
+                <img class="img-redes" src="./img/descarga (5).png" alt="">
+                <img class="img-redes" src="./img/descarga (6).png" alt="">
+                <img class="img-redes" src="./img/descarga (7).png" alt="">
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-md-4 col-lg-4">
+            <div class="contenido3">
+              <p class="h5">Contacto</p>
+              <div class="seccion-contacto">
+                <div class="contacto">
+                  <img class="img-contacto" src="./img/descarga (8).png" alt=""> 
+                  <p> 15-4433-4321</p> 
+                </div>
+                <div class="contacto">
+                  <img class="img-contacto" src="./img/descarga (13).jpg" alt="">
+                  <p>san martin 34054,caba.</p>
+                </div>
+                <div class="contacto">
+                  <img class="img-contacto" src="./img/descarga (14).jpg" alt="">
+                  <p>example@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-modal"
+              src="./img/descarga (4).png"
+              width="40px"
+              height="40px"
+              alt="login"
+            />
+            <input
+              type="text"
+              name="NombreUsuario"
+              id="NombreUsuario"
+              placeholder="UserName"
+            />
+          </div>
+          <div class="modal-footer">
+            <button type="button"   data-bs-dismiss="modal"
+            aria-label="Close" id="button-footer" class="btn btn-dark">
+              Ingresar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/otras-pags.js"></script>
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

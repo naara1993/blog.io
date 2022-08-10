@@ -1,0 +1,391 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    padding:20px;
+}
+#titulo-logo{
+    text-shadow: 1px 1px 1px rgb(34, 0, 255);
+}
+.logo-title{
+    display: flex;
+    align-items: center;
+    padding-left:40px;
+}
+nav .navbar-nav{
+    justify-content:end;
+}
+.navbar-collapse {
+    justify-content:end;
+    padding-right: 80px;
+}
+.nav-link {
+    color:black;
+    cursor: pointer;
+    font-size: larger;
+}
+.navbar,.navbar-expand-lg,.navbar-light{
+    margin-left:47px;
+}
+.img{
+    border-radius: 30px;
+    height:550px;
+    width:100%;
+    color:white;
+    background-image: url('/img/coding-924920_960_720.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: darken;
+}
+.cover-card{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20%;
+}
+.modal-body{
+    display: flex;
+    padding: 40px;
+}
+.img-modal{
+    border-radius:80px;
+}
+.modal-header{
+    text-shadow: 1px 1px 1px #fff;
+    background-color: rgb(235, 97, 97);
+}
+.modal-title{
+   font-weight: 800;
+   padding-left: 40%;
+}
+input[type="text"]{
+    width:80%;
+    border-radius: 70px;
+    padding: 5px;
+}
+#button-footer{
+    width:100%;
+
+}
+figure ,.text-center{
+    padding: 15px 0px 15px 0px;
+}
+main{
+  padding: 20px;
+  margin:10px;
+}
+.card-body{
+    border:0px;
+    font-size: small;
+    border-radius:30px;
+}
+article{
+    padding: 10px;
+}
+.card {
+    border:0px;
+    border-radius:30px;
+    box-shadow: 0px 3px 0px 3px  rgb(253, 251, 251);
+}
+.card-img-top{
+    border-radius: 20px;
+}
+.card-text-subtitle{ 
+    color:rgba(255, 166, 0, 0.813);
+    font-weight: 700;
+
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.744);
+    box-shadow: 1px 1px 1px #fff inset;
+    padding: 90px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+}
+.contenido1{
+    padding:20px;
+    color:white;
+    font-weight: 700;
+    width:80%;
+    font-size: large;
+}
+.title{
+    text-decoration-line: darken;
+    text-decoration: underline;
+    text-shadow: 0 1px 0 rgb(20, 1, 1);
+    font-size:larger;
+}
+.contenido2{
+    color:white;
+    font-weight: 700;
+    text-align: center;
+    padding-top:30px;
+    padding: 10px;
+}
+.redesSociales{
+    display:flex;
+    justify-content:center;
+}
+.img-redes{
+    border-radius:60px;
+    width:30px;
+    height:30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.img-contacto{
+    border-radius:60px;
+    width:30px;
+    height:30px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+.contenido3{
+    color: white;
+    padding-top: 20px;
+    font-weight: 700;
+    margin-left: 25%;
+}
+.contacto{
+    display:flex;
+}
+.seccion-contacto{
+    display:block;
+    text-align: center;
+
+}
+@media screen and (max-width:765px){
+    .img{
+        border-radius: 30px;
+        height: auto;
+        width: auto;
+    }
+    .cover-card{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 45px;
+    }
+    .navbar, .navbar-expand-lg, .navbar-light {
+        margin-left: 63px;
+    }
+}
+@media screen and (max-width:765px){
+    .contenido1{
+        padding:10px;
+        color:white;
+        font-weight: 700;
+        margin-left: 15%;
+        border-bottom: 1.5px solid white;
+        font-size: small;
+    }
+    .contenido2{
+        padding: 20px;
+        color:white;
+        font-weight: 700;
+        text-align: center;
+        border-bottom: 1.5px solid white;
+        font-size: small;
+    }
+
+    .contenido3{
+        padding: 20px;
+        color: white;
+        font-weight: 700;
+        margin-left: 10%;
+        font-size: 10px;
+        width: 100%;
+        border-bottom: 1.5px solid white;
+
+
+    }
+}
+
+/*----------aside----------------------*/
+
+aside
+{
+    padding-right:20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.suscribe, .otras-pag, .seccion-de-links
+{
+    width: 90%;
+    margin-bottom: 25%;
+    margin-top:60%;
+
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+.suscribe button
+{
+    margin-top: 10px;
+    border-radius: 5px;
+    border: rgb(129, 186, 233) 1px solid;
+    padding: 5px 5px;
+}
+
+.suscribe button:hover
+{
+    background-color: rgb(224, 196, 160);
+}
+
+.seccion-paginas-enlaces
+{
+    width: 100%;
+    text-align: center;
+    
+}
+
+.seccion-paginas-enlaces h6
+{
+  padding-top: 30px;
+}
+
+.contenedor-img
+{
+    width: 100%;
+}
+
+.contenedor-img img
+{
+    width: 80%;
+}
+
+.sect-links-articulos a
+{
+    display: block;
+    text-align: center;
+}
+
+/*-----------Caja Comentarios---------*/
+
+.seccion-comentario
+{
+    margin-top: 5%;
+}
+
+.seccion-comentario input, textarea
+{
+    all: inherit;
+    border: 1px solid darkcyan;
+    width: 100%;
+}
+
+.seccion-comentario p
+{
+    color: rgb(121, 119, 119);
+    font-size: smaller;
+}
+
+.seccion-comentario button
+{
+    float: right;
+    margin-top: 1%;
+    padding: 5px 10px;
+
+    border: 1px solid darkcyan;
+}
+
+.seccion-comentario button:hover
+{
+    float: right;
+    margin-top: 1%;
+    padding: 5px 10px;
+
+    border: 1px solid rgb(46, 218, 218);
+    background-color: antiquewhite;
+}
+
+/*----------Pagina de los articulos----------------*/
+
+.pag-de-articulos .card-text
+{
+    margin-top: 5%;
+
+}
+
+.articulo-text{
+    margin: 2% 0%;
+    font-size: larger;
+}
+
+.card-title{
+    margin-bottom: 2%;
+}
+
+.txt-cant-comen{
+    width: 18%;
+    display: inline-block!important;
+}
+
+.links-bottom-main-der a{
+    float: right;
+    color: rgb(206, 85, 77);  
+}
+
+.links-bottom-main-der a:hover{
+    color: rgb(41, 150, 114);
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.links-bottom-main-izq a{
+
+    color: rgb(206, 85, 77);
+    
+}
+
+.links-bottom-main-izq a:hover{
+    color: rgb(41, 150, 114);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#cajaDeComentarios{
+    border: 1px solid rgb(19, 88, 88);
+    padding: 10px 20px;
+}
+
+#cajaDeComentarios button{
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    
+}
+
+#cajaDeComentarios button:hover{
+    background-color: rgb(243, 194, 161);
+
+}
+
+.contenedor-contador{
+    width: 100%;
+}
+
+.contenedor-contador p{
+    display: inline-block;
+}
+
+.contenedor-contador h4{
+    display: inline-block;
+}
+

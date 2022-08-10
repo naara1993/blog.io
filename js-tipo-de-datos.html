@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Javascript - Tipo de datos</title>
+  </head>
+
+  <body>
+    <header class="container-fluid">
+      <div class="row">
+        <div class="logo-title">
+          <a href="index.html">
+            <img
+            src="./img/images (1).png"
+            width="100px"
+            height="100px"
+            class="img-fluid"
+            alt="logo escuela"
+          />
+          </a>
+          <h2 id="titulo-logo" class="h2 px-3">E-Learning</h2>
+        </div>
+        <nav class="navbar navbar-expand-md navbar-light">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Artículos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ancla-contacto">Contacto</a>
+              </li>
+              
+              <li class="nav-item">
+                <a
+                  class="nav-link nav-modal"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                  >Login</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    
+    </header>
+
+
+    <!--MAIN------------------------>
+
+    <div class="row pag-de-articulos">
+    <main class="container-fluid col-md-8 col-sm-12 col-lg-8">
+      <div class="row">
+        <article class="col-md-12 col-sm-12 col-lg-12">
+          <div class="card">
+            
+            <div class="card-body">
+              <p class="card-text-subtitle">JAVASCRIPT - DATOS</p>
+              <h5 class="card-title h4">
+                Tipo de datos y variables en JavaScript
+              </h5>
+
+              <img
+              src="img/img-javascript/JS-tipo-de-d.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+              <div class="seccion-de-textos">
+              <p class="articulo-text">
+                Todos los lenguajes de programación tienen estructuras de datos integradas, pero estas a menudo difieren de un lenguaje a otro. Este artículo intenta enumerar las estructuras de datos integradas disponibles en JavaScript y las propiedades que tienen. Estas se pueden utilizar para construir otras estructuras de datos.
+              </p>
+
+              <h3>Estructuras y tipos de datos</h3>
+
+              <p>En Javascript disponemos de los siguientes tipos de datos:</p>
+
+              <dl>
+                <dt>Number</dt>
+                <dd>Valor numérico (enteros, decimales, etc...)</dd>
+
+                <dt>String</dt>
+                <dd>Valor de texto (cadenas de texto, carácteres, etc...)</dd>
+
+                <dt>Boolean</dt>
+                <dd>Valor booleano (valores verdadero o falso)</dd>
+
+                <dt>Undefined</dt>
+                <dd>Valor sin definir (variable sin inicializar)</dd>
+
+                <dt>Function</dt>
+                <dd>Función (función guardada en una variable)</dd>
+
+                <dt>Object</dt>
+                <dd>Objeto (estructura más compleja)</dd>
+
+              </dl>
+
+
+              <p class="articulo-text">
+                Para saber que tipo de dato tiene una variable, debemos observar que valor le hemos dado. Si es un valor numérico, será de tipo number. Si es un valor de texto, será de tipo string, si es verdadero o falso, será de tipo booleano. 
+              </p>
+
+              <h3>Variables</h3>
+
+              <p class="articulo-text">
+                En programación, las variables son espacios donde se puede guardar información y asociarla a un determinado nombre. De esta forma, cada vez que se consulte ese nombre posteriormente, te devolverá la información que contiene. La primera vez que se realiza este paso se suele llamar inicializar una variable.
+
+                <br><br>
+                Para declarar una variable utilizamos las palabras reservadas <strong>var o let</strong>.
+
+                <br>
+
+                En Javascript, si una variable no está inicializada, contendrá un valor especial: undefined, que significa que su valor no está definido aún, o lo que es lo mismo, que no contiene información.
+
+                <br>
+                Como su propio nombre indica, una variable puede variar su contenido, ya que aunque contenga una cierta información, se puede volver a cambiar. A esta acción ya no se le llama inicializar una variable, sino declarar una variable 
+              </p>
+
+
+
+              <h4>Constantes</h4>
+
+              <p>Para declarar una constante en Javascript utilizamos la palabra reservada <strong>const</strong>.
+                
+                <br>
+                Las constantes de Javascript son variables inicializadas a un valor específico y que no pueden redeclararse. No confundir con valores inmutables, ya que como veremos posteriormente, los objetos si pueden ser modificados aún siendo constantes.</p>
+
+            </div>
+              
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="row">
+        <div class="links-bottom-main-izq col-md-6 col-sm-6 col-lg-6">
+          <a href="index.html"> Volver al inicio </a>
+        </div>
+
+        <div class="links-bottom-main-der col-md-6 col-sm-6 col-lg-6">
+          <a href="js-if.html">If en JavaScript -></a>
+        </div>
+      </div>
+
+    </main>
+
+    </div>
+
+    <!--Footer--------------------------------->
+
+    <a id="ancla-contacto"></a>
+
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 col-lg-4 col-sm-12">
+            <div class="contenido1">
+              <p class="title">E-Learning</p>
+              <p>Ofreciendo calidad y contenido educativo de muy buen nivel</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-sm-12">
+            <div class="contenido2">
+              <p class="h5">¡Seguinos para mas novedades!</p>
+              <div class="redesSociales">
+                <img class="img-redes" src="./img/descarga (12).jpg" alt="">
+                <img class="img-redes" src="./img/descarga (5).png" alt="">
+                <img class="img-redes" src="./img/descarga (6).png" alt="">
+                <img class="img-redes" src="./img/descarga (7).png" alt="">
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-md-4 col-lg-4 col-sm-12">
+            <div class="contenido3">
+              <p class="h5">Contacto</p>
+              <div class="seccion-contacto">
+                <div class="contacto">
+                  <img class="img-contacto" src="./img/descarga (8).png" alt=""> 
+                  <p> 15-4433-4321</p> 
+                </div>
+                <div class="contacto">
+                  <img class="img-contacto" src="./img/descarga (13).jpg" alt="">
+                  <p>san martin 34054,caba.</p>
+                </div>
+                <div class="contacto">
+                  <img class="img-contacto" src="./img/descarga (14).jpg" alt="">
+                  <p>example@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-modal"
+              src="./img/descarga (4).png"
+              width="40px"
+              height="40px"
+              alt="login"
+            />
+            <input
+              type="text"
+              name="NombreUsuario"
+              id="NombreUsuario"
+              placeholder="UserName"
+            />
+          </div>
+          <div class="modal-footer">
+            <button type="button" id="button-footer" class="btn btn-dark">
+              Ingresar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/otras-pags.js"></script>
+  </body>
+</html>

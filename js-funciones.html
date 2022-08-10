@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Javascript - Funciones</title>
+  </head>
+
+  <body>
+    <header class="container-fluid">
+      <div class="row">
+        <div class="logo-title">
+          <a href="index.html">
+            <img
+            src="./img/images (1).png"
+            width="100px"
+            height="100px"
+            class="img-fluid"
+            alt="logo escuela"
+          />
+          </a>
+          <h2 id="titulo-logo" class="h2 px-3">E-Learning</h2>
+        </div>
+        <nav class="navbar navbar-expand-md navbar-light">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Artículos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ancla-contacto">Contacto</a>
+              </li>
+              
+              <li class="nav-item">
+                <a
+                  class="nav-link nav-modal"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                  >Login</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    
+    </header>
+
+
+    <!--MAIN------------------------>
+
+    <div class="row pag-de-articulos">
+    <main class="container-fluid col-md-8 col-sm-12 col-lg-8">
+      <div class="row">
+        <article class="col-md-12 col-sm-12 col-lg-12">
+          <div class="card">
+            
+            <div class="card-body">
+              <p class="card-text-subtitle">JAVASCRIPT - FUNCIONES</p>
+              <h5 class="card-title h4">
+                Funciones en Javascript
+              </h5>
+
+              <img
+              src="img/img-javascript/JS-funciones.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+              <div class="seccion-de-textos">
+              <p class="articulo-text">
+                En Javascript, las funciones son uno de los tipos de datos más importantes, ya que estamos continuamente utilizándolas a lo largo de nuestro código.
+
+                <br><br>
+
+                Las funciones son uno de los bloques de construcción fundamentales en JavaScript. Una función en JavaScript es similar a un procedimiento — un conjunto de instrucciones que realiza una tarea o calcula un valor, pero para que un procedimiento califique como función, debe tomar alguna entrada y devolver una salida donde hay alguna relación obvia entre la entrada y la salida. Para usar una función, debes definirla en algún lugar del ámbito desde el que deseas llamarla.
+              </p>
+
+              <h3>Crear Funciones</h3>
+
+              <p>Una definición de función (también denominada declaración de función o expresión de función) consta de la palabra clave function, seguida de:
+                <strong>
+                    <ul>
+                        <li>El nombre de la función</li>
+                        <li>Una lista de parámetros de la función, entre paréntesis y separados por comas.</li>
+                        <li>Las declaraciones de JavaScript que definen la función, encerradas entre llaves, { ... }.</li>
+                    </ul>
+                </strong>
+
+
+              <p class="articulo-text">
+                <strong>El nombre de la función</strong> debe ser un nombre significativo, que se asocie a qué es lo que vamos a realizar con dicha función. Esto permite que luego de un tiempo, o si alguien ve nuestro código, sepa con más facilidad para que funciona.
+              </p>
+
+              <h3>Llamado de funciones</h3>
+
+              <p class="articulo-text">
+                
+                Una vez que creamos nuestra funcion, el siguiente paso es llamarla. Si no lo hacemos la función no hará nada más que ocupar espacio en nuestro espacio de trabajo.
+
+                <br><br>
+
+                Para invocar una función desde cualquier parte de nuestro programa, solo es necesario escribir el nombre de la función creada seguido de paréntesis( en caso de tener parámetros indicarlos dentro, separados por comas).
+                <br>
+                Ejemplo: MiFuncion();
+              </p>
+
+
+
+              <h4>Funciones con la Instrucción return</h4>
+
+              <p>
+
+                Una función JavaScript puede tener la instrucción return. Esta es requerida si queremos que la función dada nos retorne un valor. La instrucción return debe ser la última línea en una función.
+            </p>
+
+            </div>
+              
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="row">
+        <div class="links-bottom-main-izq col-md-6 col-sm-6 col-lg-6">
+          <a href="index.html"> Volver al inicio </a>
+        </div>
+
+        <div class="links-bottom-main-der col-md-6 col-sm-6 col-lg-6">
+          <a href="#">HTML -></a>
+        </div>
+      </div>
+
+
+    </main>
+
+    </div>
+
+    <!--Footer--------------------------------->
+
+    <a id="ancla-contacto"></a>
+
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 col-lg-4 col-sm-12">
+            <div class="contenido1">
+              <p class="title">E-Learning</p>
+              <p>Ofreciendo calidad y contenido educativo de muy buen nivel</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-sm-12">
+            <div class="contenido2">
+              <p class="h5">¡Seguinos para mas novedades!</p>
+              <div class="redesSociales">
+                <img class="img-redes" src="./img/descarga (12).jpg" alt="">
+                <img class="img-redes" src="./img/descarga (5).png" alt="">
+                <img class="img-redes" src="./img/descarga (6).png" alt="">
+                <img class="img-redes" src="./img/descarga (7).png" alt="">
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-md-4 col-lg-4 col-sm-12">
+            <div class="contenido3">
+              <p class="h5">Contacto</p>
+              <div class="seccion-contacto">
+                <div class="contacto">
+                  <img class="img-contacto" src="./img/descarga (8).png" alt=""> 
+                  <p> 15-4433-4321</p> 
+                </div>
+                <div class="contacto">
+                  <img class="img-contacto" src="./img/descarga (13).jpg" alt="">
+                  <p>san martin 34054,caba.</p>
+                </div>
+                <div class="contacto">
+                  <img class="img-contacto" src="./img/descarga (14).jpg" alt="">
+                  <p>example@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-modal"
+              src="./img/descarga (4).png"
+              width="40px"
+              height="40px"
+              alt="login"
+            />
+            <input
+              type="text"
+              name="NombreUsuario"
+              id="NombreUsuario"
+              placeholder="UserName"
+            />
+          </div>
+          <div class="modal-footer">
+            <button type="button" id="button-footer" class="btn btn-dark">
+              Ingresar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/otras-pags.js"></script>
+  </body>
+</html>

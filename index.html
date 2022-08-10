@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="./css/index.css" />
+    <title>E-Learning - Articulos de tecnología</title>
+  </head>
+
+  <body>
+
+
+
+    <!------------------ HEADER ------------------------------->
+    <header class="container-fluid">
+      <div class="">
+        <div class="logo-title">
+          <a href="index.html">
+            <img
+            src="./img/images (1).png"
+            width="100px"
+            height="100px"
+            class="img-fluid"
+            alt="logo escuela"
+          />
+          </a>
+      
+          <h2 id="titulo-logo" class="h2 px-3">E-Learning</h2>
+        </div>
+        <nav class="navbar navbar-expand-md navbar-light">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ancla-articulos">Artículos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ancla-contacto">Contacto</a>
+              </li>
+              
+              <li id="login" class="nav-item">
+                <a class="nav-link nav-modal"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal">Ingresar</a>
+              </li>
+              <li id="login" class="nav-item">
+                <a class="btn nav-link " onclick="salirLogin()" id="salir"
+                  >Salir</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    
+    </header>
+
+    <!------------------------------------------------->
+      <div class="img">
+        <div class="cover-card">
+          <h5 class="card-title">Aprendizaje para todos</h5>
+          <p class="card-text">
+            Rápido, fácil, aprende las bases de la programación.
+          </p>
+          <p class="card-text"></p>
+        </div>
+      </div>
+    </header>
+
+    <section class="container-fluid">
+      <figure class="text-center row">
+        <blockquote class="blockquote">
+          <p>Muchas veces la gente no sabe lo que quiere hasta que se lo enseñas</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          Steve Jobs
+        </figcaption>
+      </figure>
+    </section>
+
+    <!------------------------ MAIN ------------------------>
+    <a id="ancla-articulos"></a>
+
+    <div class="row">
+    <main class="container-fluid col-md-8 col-sm-12 col-lg-8">
+      <div class="row">
+
+        <!--Articulo n1 - que es la programacion-->
+        <article class="col-md-6 col-sm-12 col-lg-6">
+          <div class="card">
+            <img
+              src="./img/technology-1283624_960_720.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text-subtitle">APRENDER A PROGRAMAR</p>
+              <h5 class="card-title h4">
+                ¿Qué es la programacion?
+              </h5>
+              <p class="card-text">
+                La programación es el proceso de creación de programas informáticos. Esta definición se puede interpretar de la siguiente manera. La programación no es más que una explicación a la computadora de qué, en qué forma y cómo llegar al usuario. En otras palabras
+              </p>
+              <a href="Que-es-prog.html" class="btn btn-primary">Leer más</a>
+            </div>
+          </div>
+        </article>
+
+        <!--Articulo n2 - HTML-->
+
+        <article class="col-md-6 col-sm-12 col-lg-6">
+          <div class="card">
+            <img
+              src="./img/html.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text-subtitle">APRENDER A PROGRAMAR - MAQUETACIÓN</p>
+              <h5 class="card-title h4">
+                HTML - La estructura de la web
+              </h5>
+              <p class="card-text">
+                En este artículo hablamos todo acerca de HTML
+              </p>
+              <a href="HTML.html" class="btn btn-primary">Leer más</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+
+      <div class="row">
+        <!--Articulo n3 - CSS-->
+        <article class="col-md-6 col-sm-12 col-lg-6">
+          <div class="card">
+            <img
+              src="./img/css.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text-subtitle">APRENDER A PROGRAMAR - DISEÑO</p>
+              <h5 class="card-title h4">
+                CSS - Hojas de Estilo en Cascada
+              </h5>
+              <p class="card-text">
+                Ya tenemos una estructura, ahora hay que darle un poco de color...
+              </p>
+              <a href="CSS.html" class="btn btn-primary">Leer más</a>
+            </div>
+          </div>
+        </article>
+
+        <!--Articulo n4 - POO-->
+        <article class="col-md-6 col-sm-12 col-lg-6">
+          <div class="card">
+            <img
+              src="./img/poo.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text-subtitle">APRENDER A PROGRAMAR</p>
+              <h5 class="card-title h4">
+                Para aprender programación tienes que saber qué significa la
+                POO.
+              </h5>
+              <p class="card-text">
+                La programación Orientada a Objetos El ABC de la Programación
+                Orientada a Objetos (POO) La POO es el paradigma de programación
+                más famoso. Por eso nos referimos a este tipo de programación
+                para explicar qué significa programar en informática. Desde que
+                fue inventado por Kristen…
+              </p>
+              <a href="POO.html" class="btn btn-primary">Leer más</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+
+      <div class="row">
+        <!--Articulo n5 - Javascript-->
+        <article class="col-md-6 col-sm-12 col-lg-6">
+          <div class="card">
+            <img
+              src="./img/que-es-javascript.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text-subtitle">APRENDER A PROGRAMAR</p>
+              <h5 class="card-title h4">
+                JavaScript
+              </h5>
+              <p class="card-text">
+                JavaScript es el único lenguaje de programación que funciona en los navegadores de forma nativa (lenguaje interpretado sin necesidad de compilación). Por tanto se utiliza como complemento de HTML y CSS para crear páginas webs.
+                <br>
+                En este artículo hablaremos un poco mas de el.
+              </p>
+              <a href="js-javascript.html" class="btn btn-primary">Leer más</a>
+            </div>
+          </div>
+        </article>
+
+        <!--Articulo n6 - Javascript tipos de datos y variables-->
+
+        <article class="col-md-6 col-sm-12 col-lg-6">
+          <div class="card">
+            <img
+              src="img/img-javascript/JS-tipo-de-d.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text-subtitle">APRENDER A PROGRAMAR</p>
+              <h5 class="card-title h4">
+                Tipos de datos en JavaScript
+              </h5>
+              <p class="card-text">
+                Todos los lenguajes de programación tienen estructuras de datos integradas, pero estas a menudo difieren de un lenguaje a otro. Este artículo intenta enumerar las estructuras de datos integradas disponibles en JavaScript...
+              </p>
+              <a href="js-tipo-de-datos.html" class="btn btn-primary">Leer más</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="row">
+        <!--Articulo n7 - Javascript condicionales-->
+        <article class="col-md-6 col-sm-12 col-lg-6">
+          <div class="card">
+            <img
+              src="img/img-javascript/JS-IF.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text-subtitle">APRENDER A PROGRAMAR</p>
+              <h5 class="card-title h4">
+                JavaScript - Condicionales IF
+              </h5>
+              <p class="card-text">
+                En cualquier lenguaje de programación, el código necesita realizar decisiones y llevar a cabo diferentes acciones acordes dependiendo de distintas entradas. Por ejemplo, en un juego, si el el numero de vidas del jugador es 0, entonces se termina el juego. <br>
+                En este artículo, exploraremos cómo las llamadas declaraciones condicionales funcionan en JavaScript.
+              </p>
+              <a href="js-if.html" class="btn btn-primary">Leer más</a>
+            </div>
+          </div>
+        </article>
+
+        <!--Articulo n8 - Javascript ciclos-->
+
+        <article class="col-md-6 col-sm-12 col-lg-6">
+          <div class="card">
+            <img
+              src="img/img-javascript/JS-ciclos.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text-subtitle">APRENDER A PROGRAMAR</p>
+              <h5 class="card-title h4">
+                Ciclos en JavaScript
+              </h5>
+              <p class="card-text">
+                Una de las principales ventajas de la programación es la posibilidad de crear bucles y repeticiones para tareas específicas, y que no tengamos que realizarlas varias veces de forma manual. En este artículo hablaremos de los diferentes ciclos que encontramos en JavaScript.
+              </p>
+              <a href="js-ciclos.html" class="btn btn-primary">Leer más</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="row">
+        <!--Articulo n9 - Javascript Funciones-->
+        <article class="col-md-6 col-sm-12 col-lg-6">
+          <div class="card">
+            <img
+              src="img/img-javascript/JS-funciones.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text-subtitle">APRENDER A PROGRAMAR</p>
+              <h5 class="card-title h4">
+                JavaScript - Funciones
+              </h5>
+              <p class="card-text">
+                
+              </p>
+              Las funciones son uno de los bloques de construcción fundamentales en JavaScript. Una función en JavaScript es similar a un procedimiento — un conjunto de instrucciones que realiza una tarea o calcula un valor.
+              <br>
+              En el siguiente artículo hablaremos un poco más de esto.
+              <br><br>
+              <a href="js-funciones.html" class="btn btn-primary">Leer más</a>
+            </div>
+          </div>
+        </article>
+
+      <!------------------------Caja de comentarios------------------------------->
+
+      <div class="row seccion-comentario">
+        <div>
+          <h5>Dejanos tu comentario</h5>
+        </div>
+
+        <section class="col-md-12 col-sm-12 col-lg-12">
+
+            <label for="txtComentario">Comentario</label>
+            <textarea name="txtComentario" id="txtComentario"  rows="5"></textarea>
+
+            <div class="row">
+              <div class="col-md-6 col-sm-12 col-lg-6">
+
+                <label for="txtNombrecomen">Nombre * </label>
+                <input type="text" id="txtNombrecomen" name="txtNombrecomen" required>
+              </div>
+
+              <div class="col-md-6 col-sm-12 col-lg-6">
+                <label for="txtemail">Email</label>
+                <input type="email">
+                <p>Tu email no será publicado</p>
+              </div>
+
+            </div>
+
+            <button type="submit" id="btn-publicar">Publicar comentario</button>
+
+        </section>
+        </div>
+
+        <!--Seccion donde se muestran los comentarios y el contador------------->
+        
+        <div class="contenedor-contador">
+        <h4>Comentarios</h4>
+        <p >(<output id="cantidadComentarios"></output>)</p>
+        </div>
+        
+        <div id="cajaDeComentarios">
+          
+        </div>
+        
+    </main>
+
+    <!----------------- ASIDE ------------------->
+    <aside class="col-md-3 col-lg-3">
+
+      <!---------------seccion para suscribirse al blog----------------->
+      <section class="suscribe">
+        <div>
+          <h5> Suscribite al blog</h5>
+        </div>
+
+        <div>
+          <label for="txtemailsusc"></label>
+          <input type="email" name="txtemailsusc" id="txtemailsusc" placeholder="email@example.com">
+        </div>
+
+        <output id="gracias-registro"></output>
+
+        <div class="button">
+          <button type="submit" id="boton-suscribirse">Suscribirme</button>
+        </div>
+
+      </section>
+
+      <!---------------seccion para ver otras paginas relacionadas----------------->
+      <section class="otras-pag">
+
+        <div>
+          <h5> Aprendé programación</h5>
+        </div>
+
+        <div class="seccion-paginas-enlaces">
+
+          <div>
+            <h6>FreeCodeCamp</h6>
+
+            <div class="contenedor-img">
+              <a href="https://www.freecodecamp.org/espanol/" target="_blank">
+                <img src="https://media-exp1.licdn.com/dms/image/C4E0BAQGLKj3JHcof0w/company-logo_200_200/0/1589990867649?e=2147483647&v=beta&t=9qOE54XN9IU5KNvxPdXeu19S54q5XJCUFx1KFrM6NYE" alt="">
+              </a>
+              
+            </div>
+          </div>
+
+          <div>
+            <h6>Tutorialspoint</h6>
+
+            <div class="contenedor-img">
+              <a href="https://www.tutorialspoint.com/index.htm" target="_blank">
+                <img src="https://store-images.s-microsoft.com/image/apps.2366.9007199266518672.0607cbef-4e96-49c1-b02c-2432d9fc4826.e2043c6d-d6c4-49ed-8199-cc06665e9e9f" alt="">
+              </a>
+              
+            </div>
+          </div>
+
+          <div>
+            <h6>SoloLearn</h6>
+
+            <div class="contenedor-img">
+              <a href="https://www.sololearn.com/home" target="_blank">
+                
+                <img src=" https://blob.sololearn.com/avatars/sololearn.png" alt="">
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!---------------seccion de links con los articulos----------------->
+      <section class="seccion-de-links">
+
+        <div>
+          <h5> Nuestos artículos</h5>
+        </div>
+
+        <div class="sect-links-articulos">
+
+          <a href="Que-es-prog.html">Qué es la programación</a>
+          <a href="HTML.html">HTML</a>
+          <a href="CSS.html">CSS</a>
+          <a href="POO.html">Programación orientada a objetos</a> 
+          <a href="js-javascript.html">JavaScript</a>
+          <a href="JSON.html">JSON</a>
+          <a href="js-if.html">JS - Condicionales</a>
+          <a href="js-ciclos.html">JS - Ciclos</a>
+          <a href="js-funciones.html">JS - Funciones</a>
+          <a href="js-tipo-de-datos.html">JS - Tipo de datos y variables</a>
+
+        </div>
+
+      </section>
+     
+    </aside>
+    </div>
+
+    <!--------------FOOTER----------------->
+
+    <a id="ancla-contacto"></a>
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 col-lg-4 col-sm-12">
+            <div class="contenido1">
+              <p class="title">E-Learning</p>
+              <p>Ofreciendo calidad y contenido educativo de muy buen nivel</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-sm-12">
+            <div class="contenido2">
+              <p class="h5">¡Seguinos para mas novedades!</p>
+              <div class="redesSociales">
+                <img class="img-redes" src="./img/descarga (12).jpg" alt="">
+                <img class="img-redes" src="./img/descarga (5).png" alt="">
+                <img class="img-redes" src="./img/descarga (6).png" alt="">
+                <img class="img-redes" src="./img/descarga (7).png" alt="">
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-md-4 col-lg-4 col-sm-12">
+            <div class="contenido3">
+              <p class="h5">Contacto</p>
+              <div class="seccion-contacto">
+                <div class="contacto">
+                  <img class="img-contacto" src="./img/descarga (8).png" alt=""> 
+                  <p> 15-4433-4321</p> 
+                </div>
+                <div class="contacto">
+                  <img class="img-contacto" src="./img/descarga (13).jpg" alt="">
+                  <p>san martin 34054,caba.</p>
+                </div>
+                <div class="contacto">
+                  <img class="img-contacto" src="./img/descarga (14).jpg" alt="">
+                  <p>example@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-modal"
+              src="./img/descarga (4).png"
+              width="40px"
+              height="40px"
+              alt="login"
+            />
+            <input
+              type="text"
+              name="NombreUsuario"
+              id="NombreUsuario"
+              placeholder="UserName"
+            />
+          </div>
+          <div class="modal-footer">
+            <button type="button" id="button-footer" class="btn btn-dark">
+              Ingresar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
